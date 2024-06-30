@@ -1,0 +1,43 @@
+Datatype : int
+Varibale : main 
+Datatype : int
+Varibale : argc 
+Datatype : char *
+Varibale : argv 
+Function Arguments Passed Above
+
+Datatype : int
+Varibale : i 
+Value : 2 
+Value : 3 
+Operator : + 
+Assignment : =
+Datatype : char *
+Varibale : s 
+Varibale : func 
+Varibale : i 
+Value : 2 
+Operator : + 
+Varibale : i 
+Value : 2 
+Value : 2 
+Operator : + 
+ASSIGN : = 
+Varibale : s 
+Varibale : i 
+Value : 2 
+Operator : + 
+LEFT_SQBRAC : [ 
+RIGHT_SQBRAC : ] 
+Function call ends 
+
+Varibale : i 
+Value : 34 
+Value : 2 
+Operator : + 
+Operator : AND 
+Return statement 
+
+Function Defined above
+
+

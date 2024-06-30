@@ -1,0 +1,34 @@
+There are 8 files in this folder : cucu.l, cucu.y, Sample.cu, Sample1.cu, Sample2.cu, Lexer.txt, Parser.txt and README.
+
+To run the program :
+
+    Open the terminal in the directory 2022CSB1143 and Enter the following commands to run the program :
+        1. flex cucu.l
+        2. bison -d cucu.y
+        3. g++ cucu.tab.c lex.yy.c -lfl -o cucu
+        4. ./cucu
+
+
+File contents are :
+
+cucu.l :
+
+I've tokenized all the variable names, keywords, special characters and numbers. It will give the output inside the lexer.txt file and print every token name in it.
+
+cucu.y
+
+This program contains the BNF grammar rules for the compiler.This will give the output inside the parser.txt file and print the parsing of code. If there would be any error in syntax then an error message Syntax Error is printed in the terminal and code returns from there.
+
+
+Sample1.cu : Contains the code which has correct synatx.
+
+Sample2.cu : Contains the code which has incorrect syntax.
+
+Sample.cu : Give your cucu code here to run. (By default it contains the code of Sample1.cu).
+
+Lexer.txt : This file contains the output obtained by the cucu.l file.
+
+Parser.txt : This file stores the output obtained by the cucu.y file.
+
+
+
